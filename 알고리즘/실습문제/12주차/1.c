@@ -44,6 +44,8 @@ int main()
     init_graph();
     topologicalSort();
 
+    free_memory();
+
     return 0;
 }
 
