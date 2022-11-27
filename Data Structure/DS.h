@@ -92,7 +92,7 @@ void quick_sort(int *a, int left, int right) //퀵 정렬
             do
             {
                 i++;
-            } while (a[i] < *pivot);
+            } while (i < right && a[i] < *pivot);
 
             // pivot값보다 작은 수 찾기
             do
